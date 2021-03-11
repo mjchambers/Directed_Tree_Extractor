@@ -1,6 +1,6 @@
 # Directed_Tree_Extractor
-Initial inputs (outputs from DGTal create_distance_map and analyze_graph functions):
-		  points_file.txt = txt file containing (x, y, z) coordinates of nodes, and edge connections with (x, y, z) coordinates of edge points 
+# Initial inputs (outputs from DGTal create_distance_map and analyze_graph functions): \\
+#		  points_file.txt = txt file containing (x, y, z) coordinates of nodes, and edge connections with (x, y, z) coordinates of edge points 
                         (output from analyze_graph function, DGTal Github, https://github.com/DGtal-team/DGtal)
 		  dmap.nrrd = distance map file (output from create_distance_map function, DGTal Github, https://github.com/DGtal-team/DGtal)
 
