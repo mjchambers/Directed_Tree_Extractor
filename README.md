@@ -29,11 +29,11 @@ Questions should be sent to Mette Olufsen at msolufse (at) ncsu (dot) edu.
 %		-> arcs{1,i}(end,:)   	=  	[  X_node2  |   Y_node2  |    Z_node2   |   Rad_node2   ]
 % Employs function 'nrrdread.m'. Jeff Mather (2020). NRRD Format File Reader (https://www.mathworks.com/matlabcentral/fileexchange/34653-nrrd-format-file-reader), MATLAB Central File Exchange. Retrieved January 1, 2019.
 
-2) [root_nodeID]=plotSlicerData(arcs, nodes)
+2) [root_nodeID] = plotSlicerData(arcs, nodes)
 
 % This program plots the nodes and edge points from the arcs file and labels the nodes with their node IDs.
 % From this, we identify the following:
-% root_nodeID = nodeID of the root node of the tree, the node that starts the MPA (taken to be node with min z coordinate)
+% root_nodeID = nodeID of the root node of the tree, the node that starts the MPA (taken to be node with min z coordinate, should verify visually)
 % edges_to_remove = list of [node1 node2] pairs for false branches which need to be removed (visually identify)
 % nodes_to_remove = list of nodeIDs which need to be removed from the tree (visually identify)
 %			(Do not include nodes which are now degree 2 but still need to be points in the tree. We will eliminate these later.)
