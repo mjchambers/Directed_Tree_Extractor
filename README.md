@@ -68,5 +68,5 @@ Questions should be sent to Mette Olufsen at msolufse (at) ncsu (dot) edu.
 % 		->daughter vessel IDs = maxNumDaughters columns containing daughter vessel IDs (usually 2-4 columns)
 % maxNumDaughters: maximum number of daughters present at any single junction in the network
 % maxNumParents: maximum number of parents present at any single junction in the network (should always be 1 for networks which are trees)
-% Employs the functions 'edge_orientation.m', 'networkGenerator.m', 'IQM.m', and 'connection.m'.
+% Employs the functions 'edge_orientation.m', 'networkGenerator.m', 'IQM.m', and 'connectivity.m'.
 
